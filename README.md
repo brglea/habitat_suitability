@@ -1,16 +1,21 @@
-# Habitat Suitability - Case Study on Sorghastrum Nutans in Colorado
+# Habitat Suitability - Project on the Rocky Mountain Juniper
+# (*Juniperus scopulorum* Sargent) in Colorado
 
 ## DOI :
 
 ## Project Description
 Create a habitat suitability model for 
-[Sorghastrum nutans](https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_sonu2.pdf), 
-a grass native to North America. This habitat suitability model will focus on creating a 
-modular, reproducible workflow. In the past 50 years, its range has moved northward. 
-The model will be based on combining multiple data layers related to soil, topography, 
-and climate.
+[*Juniperus scopulorum* Sargent](https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_jusc2.pdf), 
+a tree native to the Rocky Mounatin Region of North America. This habitat suitability 
+model will focus on creating a modular, reproducible workflow. This project will 
+choose two study areas - National Grasslands, one in southern Colorado - Comanche 
+National Grassland, and one in Nothern Colorado - Pawnee National Grassland. Both 
+of these National Grasslands are in the Eastern Plains of Colorado which are to 
+the east of the Rocky Mountains. The model used will be based on combining multiple 
+data layers related to soil, topography, and climate (as raster layers) within the 
+study area envelope (the two grasslands chosen).
 
-Two variables related to soil are chosen:
+Two variables related to soil are chosen: pH and theta_s (saturated soil water content)
 
 Two climate models are chosen:
 
@@ -26,9 +31,10 @@ and select your study site(s).**Choose AT LEAST 2!**
 2. Fit a model: For each grassland:
     a. Download model variables as raster layers covering your study area envelope, including:
         i. Two soil variables from the POLARIS dataset
-            A. 
-            B.  
+            A. pH soil pH in H2O)
+            B. theta_s (saturated soil water content, m3/m3)
         ii. Elevation from the SRTM (available from the earthaccess API)
+            A. slope
         iii. Two climate variables from the MACAv2 dataset, accessible from Climate Toolbox. 
             A. 
             B. 
@@ -58,9 +64,8 @@ and select your study site(s).**Choose AT LEAST 2!**
         iii. Optionally, you may apply a threshold to make the most suitable areas 
         pop on your map.
 
-3. Present your results in at least one figure for each grassland/climate 
+3. Present results in at least one figure for each grassland/climate 
 scenario combination.
-
 
 ## Code
 
