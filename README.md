@@ -35,7 +35,7 @@ and select your study site(s).**Choose AT LEAST 2!**
             B. theta_s (saturated soil water content, m3/m3)
         ii. Elevation from the SRTM (available from the earthaccess API)
             A. slope
-        iii. Two climate variables from the MACAv2 dataset, accessible from Climate Toolbox. 
+        iii. Two climate scenarios from the MACAv2 dataset, accessible from Climate Toolbox. 
             A. 
             B. 
 
