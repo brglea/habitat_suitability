@@ -36,8 +36,8 @@ and select your study site(s).**Choose AT LEAST 2!**
         ii. Elevation from the SRTM (available from the earthaccess API)
             A. slope
         iii. Two climate scenarios from the MACAv2 dataset, accessible from Climate Toolbox. 
-            A. 
-            B. 
+            A. historical (2000-2004)
+            B. rcp85 (worst case scenario)
 
     b. Calculate at least one derived topographic** variable** (slope or aspect) 
     to use in your model. Use the xarray-spatial library, which is available in 
@@ -51,9 +51,9 @@ and select your study site(s).**Choose AT LEAST 2!**
     match up. Check out the ds.rio.reproject_match() method from rioxarray.
     
     d. Build a model. You can use any model you wish, so long as you explain 
-    your choice. However, if you are not sure what to do, we recommend building 
+    your choice. However, if you are not sure what to do, build
     a fuzzy logic model (see below).
-        i. Research S. nutans, and find out what optimal values are for each 
+        i. Research species of choice, and find out what optimal values are for each 
         variable you are using (e.g. soil pH, slope, and current climatological 
         annual precipitation).
         ii. For each digital number in each raster, assign a value from 0 to 1 
